@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-container {
+  margin-top: 20px;
+}
+
+.header-links {
+  display: flex;
+  text-decoration: none;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.headder-links-a {
+  text-decoration: none;
+}
+
+.headder-links-b {
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: purple;
+  height: 40px;
+  color: white;
+}
+.nav-2-text {
+  margin-top: 10px;
+}
+
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minalitemywnw/Rectangle-YZ9P6kWjMnUBNL6W.png);
+  background-size: cover;
+}
+
+.section-1-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  color: white;
+}
+.section-1-container-h1 {
+  font-size: 90px;
+}
+.section-1-container-button {
+  border-radius: 15px;
+  border-color: white;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  box-shadow: none;
+}
+
+.responsivediv1 {
+  display: flex;
+  gap: 30px;
+}
+
+.responsivdiv2 {
+  display: flex;
+  gap: 30px;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.section-2-h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section-2-img {
+  width: 300px;
+  position: relative;
+}
+
+.section-2-p {
+  font-size: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.button {
+  position: absolute;
+  left: 55px;
+  top: 950px;
+  background-color: purple;
+  color: white;
+  width: 60px;
+}
+
+.button2 {
+  position: absolute;
+  left: 385px;
+  top: 950px;
+  background-color: purple;
+  color: white;
+  width: 60px;
+}
+
+.section-2-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 70px;
+}
+
+.section-3 {
+  background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minalitemywnw/Untitled-AzGRJwMK6BHxZypJ.png);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  margin-top: 30px;
+}
+.section-3-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.section-3-container-h1 {
+  font-size: 100px;
+  color: white;
+  width: 600px;
+  text-align: center;
+}
+.section-3-container-p1 {
+  color: white;
+  font-size: 20px;
+}
+
+.section-4 {
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+.section-4-image1 {
+  width: 600px;
+}
+.section-4-image2 {
+  width: 600px;
+}
+.section-4-h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section-4-p1 {
+  margin-bottom: 20px;
+}
+.section-4-button {
+  margin-bottom: 20px;
+  height: 50px;
+  width: 150px;
+  background-color: purple;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.section-5 {
+  background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minalitemywnw/Frame-AGBpDkZaG5cRpbaw.png);
+  height: 100vh;
+  background-size: cover;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.section-5-button {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border-color: white;
+  cursor: pointer;
+}
+.section-5-h1 {
+  color: white;
+  margin-bottom: 50px;
+  font-size: 70px;
+}
+.section-5-p1 {
+  color: white;
+}
+
+.form {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  width: 500px;
+  height: 40px;
+}
+
+.section-6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.section-6-h1 {
+  font-size: 50px;
+}
+
+.section-7-image {
+  width: 400px;
+}
+
+.section-7-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.section-7-container2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section-7-button {
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.iconfooter {
+  width: 30px;
+}
+
+.footer-ul {
+  display: flex;
+  gap: 20px;
+}
+
+.footer {
+  height: 35vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(226, 226, 226);
+}
+
+.footer-leftside {
+  margin-top: 50px;
+}
+
+.footer-h1 {
+  margin-bottom: 20px;
+}
+
+.footer-rightside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .headder-links-a {
+    display: none;
+  }
+  .section-2-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-2-container .button {
+    position: absolute;
+    left: 20px;
+    top: 950px;
+    background-color: purple;
+    color: white;
+    width: 60px;
+  }
+  .section-2-container .button2 {
+    position: absolute;
+    left: 20px;
+    top: 1300px;
+    background-color: purple;
+    color: white;
+    width: 60px;
+  }
+  .section-4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-7-image {
+    width: 100px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+  .section-4-image1 {
+    width: 200px;
+  }
+  .section-4-image2 {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .section-7-image {
+    width: 100px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+  .section-4-image1 {
+    width: 300px;
+  }
+  .section-4-image2 {
+    width: 300px;
+  }
+  .section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .responsivediv1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .responsivdiv2 {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
